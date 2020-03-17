@@ -14,7 +14,8 @@ jobs:
 
     steps:
     - uses: docker/build-push-action@v1
-    - with:
+      name: dockerbuildpush
+      with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: sujaypillai/hello
