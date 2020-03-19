@@ -21,3 +21,4 @@ jobs:
         repository: sujaypillai/hello
         tag_with_ref: true
         tag_with_sha: true
+        target: build
